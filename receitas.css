@@ -1,0 +1,112 @@
+User
+gostaria que este codigo : User
+comparar este codigo :
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #E9967A;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+}
+
+nav {
+    height: 50px;
+    background-color: #E9967A;
+    width: 100%;
+    position: absolute;
+}
+
+ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #747162;
+    padding-left: 20px;
+    position: relative;
+    top: 10px;
+}
+ul li a:hover{
+    color: #979380;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.receita-panel {
+    flex: 0 0 calc(25.33% - 40px);
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Adiciona espaço na parte inferior */
+    /* Seu código CSS existente */
+}
+
+
+.receita-panel img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.receita-panel h5 {
+    text-align: center;
+    text-shadow: 1px 1px 2px ;
+}
+
+.receita-panel hr {
+    border: solid;
+    width: 90%;
+    margin: 15px auto;
+}
+
+.receita-panel ul, .receita-panel ol {
+    text-align: left;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.receita-panel p {
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: black;
+    border-top: 5px solid black; /* Borda preta na parte superior */
+    color: white; /* Cor do texto branco */
+    text-align: center; /* Texto centralizado */
+    padding: 10px; /* Espaçamento interno superior e inferior */
+    width: 100%; /* Largura total */
+    position: relative; /* Fixar na parte inferior */
+    bottom: 0; /* Alinhar na parte inferior */
+    margin-top: 20px; /* Adiciona espaço na parte superior */
+    /* Seu código CSS existente */
+}
